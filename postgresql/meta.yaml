@@ -1,0 +1,20 @@
+package:
+  name: postgresql
+  version: 9.1.19
+
+source:
+  fn: postgresql-9.1.19.tar.bz2
+  url: https://ftp.postgresql.org/pub/source/v9.1.19/postgresql-9.1.19.tar.bz2
+  md5: bef014153daf1adda9903a410463b314
+
+requirements:
+  build:
+    - openssl
+  run:
+    - openssl >=1.0.2
+
+about:
+  home: http://www.postgresql.org/
+  license: PostgreSQL license (http://www.postgresql.org/about/licence/)
+  license_family: Other
+  summary: PostgreSQL is a powerful, open source object-relational database system
